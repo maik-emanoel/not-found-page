@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root {
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Outfit', sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background: #000013;
+  }
+}
