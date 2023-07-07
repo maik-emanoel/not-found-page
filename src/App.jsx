@@ -1,6 +1,6 @@
-import smallStars from "./assets/small-stars.png";
 import fourNumber from "./assets/four-number.svg";
 import planetGif from "./assets/planet.gif";
+import BgAnimation from "./components/BgAnimation";
 import Button from "./components/Button";
 
 export default function App() {
@@ -43,11 +43,7 @@ export default function App() {
         </div>
       </main>
 
-      <img
-        src={smallStars}
-        alt="Plano de fundo de pequenas estrelas"
-        className="absolute inset-0 w-full h-full animate-ping-slow pointer-events-none"
-      />
+      <BgAnimation />
     </div>
   );
 }
