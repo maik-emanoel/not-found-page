@@ -5,13 +5,13 @@ import Button from "./components/Button";
 
 export default function App() {
   return (
-    <div className="w-full h-full grid place-items-center">
-      <main className="z-10 relative max-w-[1030px] w-[90%] flex justify-between">
+    <div className="w-full h-full grid place-items-center lg:block">
+      <main className="z-10 relative max-w-[1030px] w-[90%] flex gap-6 justify-between lg:flex-col lg:mt-24 lg:mx-auto lg:items-center">
         <div className="text-[#D6D6F2] max-w-[380px] flex flex-col gap-6">
-          <h1 className="text-[40px] leading-[120%] font-bold">
+          <h1 className="text-[40px] leading-[120%] font-bold sm:text-3xl">
             Ops, esta página não foi encontrada
           </h1>
-          <p className="text-xl leading-[140%] font-light">
+          <p className="text-xl leading-[140%] font-light sm:text-base">
             Parece que você se perdeu... Tente voltar para a página anterior ou
             acessar a home.
           </p>
@@ -24,21 +24,21 @@ export default function App() {
           </div>
         </div>
 
-        <div className="flex items-center gap-2 max-w-[410px] w-full h-[230px] select-none pointer-events-none">
+        <div className="flex items-center gap-2 max-w-[410px] h-[230px] select-none pointer-events-none lg:-order-1 md:pr-8">
           <img
             src={fourNumber}
             alt="Imagem do número 4"
-            className="drop-shadow-planetShadow h-fit"
+            className="w-1/4 drop-shadow-planetShadow lg:max-w-[107px] lg:h-1/2"
           />
           <img
             src={planetGif}
             alt="Gif de uma planeta se movimentando com estrelas ao seu redor"
-            className="max-w-[230px] drop-shadow-planetShadow"
+            className="w-full max-w-[230px] drop-shadow-planetShadow lg:w-2/4"
           />
           <img
             src={fourNumber}
             alt="Imagem do número 4"
-            className="drop-shadow-planetShadow h-fit"
+            className="w-1/4 drop-shadow-planetShadow lg:max-w-[107px] lg:h-1/2"
           />
         </div>
       </main>
