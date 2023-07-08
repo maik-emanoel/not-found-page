@@ -20,7 +20,7 @@ Projeto construído a partir do layout proposto no desafio [#BoraCodar27](https:
 Após o desenvolvimento do projeto inicial, adicionei novas features, tais quais:
 
 - Layout responsivo (Adaptado para telas menores);
-- Animação no background
+- Animação no background;
 - Efeitos hover/active;
 - Entre outras pequenas modificações.
 
